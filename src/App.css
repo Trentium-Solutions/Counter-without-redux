@@ -5,18 +5,36 @@
   flex-direction: column;
 }
 .buttons{
-  border: 3px black solid;
+  border: 0.5vh black solid;
   display: flex;
   background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
   align-self: center;
   justify-content:space-evenly;
-  padding: 25px;
+  font-size: larger;
+  padding: 1rem;
 }
 .btn{
-  padding: 25px;
-  padding-left: 50px;
-  padding-right: 50px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: medium;
-  font-style: italic;
+  cursor: pointer;
+  padding: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  font-size: large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.op_btn{
+  cursor: pointer;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 1.5rem;
+  font-size: large;
+  border-radius: 0.7rem;
+  margin: 2rem;
+}
+
+.result{
+  display: none;
+  font-size:x-large;
+  padding: 0.7rem;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  border: 2px solid black;
 }
